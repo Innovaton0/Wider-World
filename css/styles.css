@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&family=Fira+Sans:ital,wght@1,300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #263961;
+    font-family: "monserrat", sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Fira Sans condensed";
+}
+
+footer {
+    color: white;
+    margin: 0 auto;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#twitter1 {
+    width: 1.5em;
+}
+
+.logo-footer{
+    margin: 5em;
+}
+.footer-address{
+    width: 60%;
+    text-align: center;
+}
+.rrss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18em;
+    margin: 3em;
+    padding-left: 10em;
+}
+.links-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40em;
+    padding-left: 4em;
+    padding-bottom: 2em;
+}
+/*first header */
+.header1 {
+    height: 12.75em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header1 h3 {
+    background-color: #5D8B74;
+    border-radius: 5px;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.header1 img {
+    width: 12.75em;
+}
+
+/*end of first header related stuff*/
+.header2 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header2 .images {
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    z-index: -10;
+    filter: brightness(0.7) grayscale(0.6);
+    animation: banner-change 15s infinite ease-in-out;
+    display: flex;
+    flex-direction: row;
+}
+
+.header2 .images img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+@keyframes banner-change {
+    0% {
+        right: -200vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    20.5% {
+        right: -200vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    22.5% {
+        right: -200vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    23% {
+        right: -100vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    25% {
+        right: -100vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    45.5% {
+        right: -100vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    47.5% {
+        right: -100vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    48% {
+        right: 0vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    50% {
+        right: 0vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    70.5% {
+        right: 0vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    72.5% {
+        right: 0vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    73% {
+        right: 100vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    75% {
+        right: 100vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    95.5% {
+        right: 100vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+    97.5% {
+        right: 100vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    98% {
+        right: 200vw;
+        filter: brightness(0) grayscale(0.6);
+    }
+    100% {
+        right: 200vw;
+        filter: brightness(0.7) grayscale(0.6);
+    }
+}
+
+body {
+    margin: 0 auto;
+}
+/* navigation start*/
+nav {
+    background-color: #BFCAED;
+    width: 100%;
+    height: 8vh;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+/*nav end*/
+.s1 {
+  width: 96%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 7px;
+
+}
+
+main .s1 select {
+    border-radius: 10px;
+    font-size: 1.2em;
+    height: 4vh;
+    width: 100%;
+    background-color: #BFCAED;
+    text-align: center;
+}
+
+.s1 button {
+    background-color: #5D8B74;
+    border: none;
+    border-radius: 5px;
+    width: 8em;
+}
+
+.s2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    color: white;
+}
+
+.ww {
+  width: 50%;
+  height: 20vh;
+  border-radius: 5px;
+  text-align: center;
+  flex-direction: column;
+}
+
+main .s2 .ww h1 {
+    font-size: 4em;
+}
+
+main .s2 .ww h3 {
+  text-align: right;
+}
+
+.s3 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.s3 div p {
+    color: white;
+    text-align: center;
+}
+
+.s4 {
+    color: white;
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .s4 div {
+    text-align: center;
+}
+
+.parag {
+    width: 50%;
+    margin: auto;
+}
+
+.s5 img {
+    width: 100%;
+    height: 80vh;
+}
+
+.s6 {
+    height:125vh;
+    width: 100%;
+    color: white;
+}
+
+
+.card img {
+    width: 30vh;
+    height: 45vh;
+    background-color: white;
+    border: 1px solid rgb(197, 30, 30);
+}
+
+main .s6 h1, main .s6 p, main .s6 h2 {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20%;
+    row-gap: 1em;
+    padding-left: 6em;
+  }
+
+.s7 {
+    display: flex;
+    flex-direction: row;
+}
+
+.s7 p {
+    width: 60%;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+
+
+.s8 img {
+ width: 100%;
+ height: 90vh;
+}
+
+.s9 {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s9 img {
+  height: 80vh;
+}
+
+.s9 form {
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s9 form input {
+ font-size: 1em;
+ padding: 5px;
+}
+
+.s9 form button {
+    background-color: #5D8B74;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 16vh;
+}
+.checked {
+    color: orange;
+  }
